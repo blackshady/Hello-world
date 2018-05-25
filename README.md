@@ -1,2 +1,16 @@
 # Stocky-Frame 
-This is a Mini Photo-Stock Application that allows Users to freely download and upload an images
+This is a Mini Photo-Stock Application that provides high quality images freely for download
+
+## Table of Contents
+* Techologies
+* Features
+* API Endpoints
+* Getting Started
+  * Installation
+  * Testing
+  * Development
+  * Deployment
+  * Versioning
+* Authors
+* License
+* Acknowledgments
