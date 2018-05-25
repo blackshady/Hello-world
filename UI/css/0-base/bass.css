@@ -1,0 +1,34 @@
+@import url("../variables.css");
+body {
+  line-height: 1.4;
+  background: var(--color__background) !important;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 5px 5px;
+  box-sizing: border-box;
+  display: grid;
+}
+
+button,
+input[type=text],
+select {
+  outline: none;
+  border: none;
+  -webkit-appearance: none;
+}
+
+input[type=text] {
+  width: 50%;
+  height: 35px;
+  background-color: var(--color__light);
+  font-size: 20px;
+  border-radius: 5px;
+  text-indent: 10pt
+}
+
+input[type=text]:focus {
+  background-color: rgba(255, 255, 255, 1);
+  color: var(--color__dark);
+}

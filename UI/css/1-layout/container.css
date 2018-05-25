@@ -1,0 +1,29 @@
+@import url("../variables.css");
+.categories__wrapper h1 {
+  color: var(--color__primary);
+  border-bottom: solid 4px;
+}
+
+.search__result {}
+
+.photo__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 20px;
+}
+
+.photo__wrapper-content {
+  display: grid;
+  grid-template-columns: 150px, 1fr;
+  padding: 10px;
+  background: var(--color__shadow);
+  color: var(--color__light);
+  height: 300px;
+  font-weight: 100;
+  box-shadow: var(--color__shadow);
+}
+
+.photos {
+  width: 100%;
+  height: 100%;
+}

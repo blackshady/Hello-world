@@ -1,0 +1,10 @@
+/* CSS varaible */
+
+:root {
+  --color__light: #fff;
+  --color__dark: #000000;
+  --color__shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  --color__primary: #ec268f;
+  --color__yellow: #d6f40e;
+  --color__background: #f9f9f9;
+}
