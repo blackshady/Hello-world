@@ -14,3 +14,7 @@ This is a Mini Photo-Stock Application that provides high quality images freely 
 * Authors
 * License
 * Acknowledgments
+
+
+## Template
+Check out the Template at https://blackshady.github.io/Stocky-Frame/UI/pages/
