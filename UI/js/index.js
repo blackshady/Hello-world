@@ -1,15 +1,7 @@
-const contributeButton = document.getElementById("contribute__photo");
 const modal = document.getElementById('myModal');
 const button = document.getElementById('contribute__photo');
 const span = document.getElementsByClassName('close')[0];
-
-if (contributeButton) {
-  contributeButton.addEventListener('click', uploadPhotoModal);
-}
-
-
-
-
+const contributeButton = document.getElementById("contribute__photo");
 const loginButton = document.getElementById("login__button");
 
 if (loginButton) {
@@ -18,6 +10,13 @@ if (loginButton) {
     window.location.href = "../pages/login.html";
   });
 }
+
+
+if (contributeButton) {
+  contributeButton.addEventListener('click', uploadPhotoModal);
+}
+
+
 
 function uploadPhotoModal() {
 
@@ -44,7 +43,8 @@ function uploadPhotoModal() {
 
 
 
-const photoChooser = document.getElementById('photo__chooser').addEventListener('change', displayPhoto);
+const photoChooser = document.getElementById('photo__chooser')
+  .addEventListener('change', displayPhoto);
 
 function displayPhoto() {
   const reader = new FileReader();
