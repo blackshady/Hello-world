@@ -69,3 +69,45 @@
     opacity: 1;
   }
 }
+
+.upload__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.image__holder {
+  box-shadow: var(--color__shadow);
+  padding: 10px;
+}
+
+.category__option {
+  width: 50%;
+  height: 35px;
+  background-color: var(--color__light);
+  font-size: 20px;
+  border-radius: 5px;
+  text-indent: 10pt;
+  color: var(--color__dark);
+  box-shadow: var(--color__shadow)
+}
+
+.button__upload {
+  background: var(--color__blue);
+  color: var(--color__light);
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+  height: 40px;
+  padding: 10px;
+  font-size: 14px;
+  box-shadow: var(--color__shadow);
+}
+
+.cartegories h2 {
+  text-align: center;
+  color: var(--color__primary);
+  font-size: 35px;
+}

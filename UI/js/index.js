@@ -41,3 +41,18 @@ function uploadPhotoModal() {
   };
 
 }
+
+
+
+const photoChooser = document.getElementById('photo__chooser');
+
+photoChooser.addEventListener('change', displayPhoto);
+
+function displayPhoto() {
+  const reader = new FileReader();
+  reader.onload = (event) => {
+    const imageShowcase = document.getElementById('image');
+    imageShowcase.src = event.target.result;
+  }
+  reader.readAsDataURL(event.target.files[0]);
+}

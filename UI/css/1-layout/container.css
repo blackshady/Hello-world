@@ -21,6 +21,7 @@
   height: 300px;
   font-weight: 100;
   box-shadow: var(--color__shadow);
+  box-sizing: border-box;
 }
 
 .photos {
@@ -28,6 +29,16 @@
   height: 100%;
 }
 
-.photo__wrapper-content:hover {
-  cursor: pointer;
+.title {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 35px;
+  color: var(--color__light);
+}
+
+.showcase {
+  position: relative;
+  text-align: center;
+  color: var(--color__light);
 }
