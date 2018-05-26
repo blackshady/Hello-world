@@ -44,9 +44,7 @@ function uploadPhotoModal() {
 
 
 
-const photoChooser = document.getElementById('photo__chooser');
-
-photoChooser.addEventListener('change', displayPhoto);
+const photoChooser = document.getElementById('photo__chooser').addEventListener('change', displayPhoto);
 
 function displayPhoto() {
   const reader = new FileReader();
