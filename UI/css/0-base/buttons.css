@@ -12,6 +12,6 @@
 }
 
 .button-contribute {
-  color: var(--color__primary);
-  background: var(--color__yellow);
+  color: var(--color__dark);
+  background: var(--color__blue);
 }

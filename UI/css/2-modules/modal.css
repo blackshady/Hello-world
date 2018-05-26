@@ -1,8 +1,4 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 17px;
-}
-
+@import url("../variables.css");
 .modal {
   display: none;
   position: fixed;
@@ -19,7 +15,7 @@ body {
 /* Modal Content/Box */
 
 .modal-content {
-  background-color: #fefefe;
+  background-color: var(--color__background);
   margin: 15% auto;
   border: 1px solid #888;
   width: 70%;
@@ -37,16 +33,16 @@ body {
 }
 
 .modal-footer {
-  background: #00a47c;
+  background: var(--color__primary);
   padding: 10px;
-  color: #fff;
+  color: var(--color__light);
   text-align: center;
 }
 
 .modal-header {
-  background: #00a47c;
+  background: var(--color__primary);
   padding: 16px;
-  color: #fff;
+  color: var(--color__light);
 }
 
 /* The Close Button */
