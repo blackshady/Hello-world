@@ -1,0 +1,17 @@
+@import url("../variables.css");
+.button {
+  border-radius: 5px;
+  color: var(--color__dark);
+  background: var(--color__light);
+  box-shadow: var(--color__shadow);
+}
+
+.button:hover {
+  color: var(--color__light);
+  background: var(--color__yellow);
+}
+
+.button-contribute {
+  color: var(--color__dark);
+  background: var(--color__blue);
+}

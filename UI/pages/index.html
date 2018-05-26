@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../build/styles.css">
+  <title>Stocky Frame |Welcome </title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content-wrapper">
+      <div class="logo__container">
+        <a href="../pages/index.html">
+          <img src="../assets/icons/logo.png" alt="" class="logo">
+        </a>
+      </div>
+      <div class="search__bar">
+        <input type="text" name="search" placeholder="search.." class="search__bar-input">
+      </div>
+      <button class="button" id="login__button">Login</button>
+      <button class="button button-contribute" id="contribute__photo">Contribute Photo</button>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <div class="categories__wrapper">
+      <h1>CATEGORIES</h1>
+      <div class="search__result"></div>
+    </div>
+    <div class="photo__wrapper">
+
+      <div class="photo__wrapper-content">
+
+        <div class="showcase">
+          <img src="../img/0-living-room-couch-interior-room-584399.jpeg" alt="" class="photos">
+          <div class="title">
+            Nature
+          </div>
+        </div>
+
+      </div>
+      <div class="photo__wrapper-content">
+        <div class="showcase">
+          <img src="../img/1-pexels-photo-92905.jpeg" alt="" class="photos">
+          <div class="title">Code</div>
+        </div>
+
+      </div>
+
+      <div class="photo__wrapper-content">
+        <div class="showcase" id="albums">
+          <img src="../img/2-pexels-photo-206172.jpeg" alt="" class="photos">
+          <div class="title">House</div>
+        </div>
+
+      </div>
+      <div class="photo__wrapper-content">
+        <div class="showcase">
+          <img src="../img/3-pexels-photo-259098.jpeg" alt="" class="photos">
+          <div class="title">Girls</div>
+        </div>
+
+      </div>
+      <div class="photo__wrapper-content">
+        <div class="showcase">
+          <img src="../img/4-pexels-photo-262713.jpeg" alt="" class="photos">
+          <div class="title">People</div>
+        </div>
+      </div>
+      <div class="photo__wrapper-content">
+        <div class="showcase">
+          <img src="../img/6-pexels-photo-271624.jpeg" alt="" class="photos">
+          <div class="title">Room</div>
+        </div>
+
+      </div>
+      <div class="photo__wrapper-content">
+        <div class="showcase">
+          <img src="../img/7-pexels-photo-271795.jpeg" alt="" class="photos">
+          <div class="title">Home</div>
+        </div>
+
+      </div>
+      <div class="photo__wrapper-content">
+        <div class="showcase">
+          <img src="../img/8-pexels-photo-280232.jpeg" alt="" class="photos">
+          <div class="title">Children</div>
+        </div>
+
+      </div>
+      <div class="photo__wrapper-content">
+        <div class="showcase">
+          <img src="../img/9-pexels-photo.jpg" alt="" class="photos">
+          <div class="title">Computer</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Contribute Photo Modal -->
+
+
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Contribute a photo</h2>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <input type="file" name="file" accept="image/*" id="photo__chooser">
+          <div class="upload__wrapper">
+            <div class="image__holder">
+              <img src="../assets/icons/Upload.png" alt="" height="200" id="image">
+            </div>
+
+            <div class="cartegories">
+              <h2>Category</h2>
+              <div class="custom-select">
+                <select class="category__option">
+                  <option value="0">Select Photo Category:</option>
+                  <option value="1">Nature</option>
+                  <option value="2">Car</option>
+                  <option value="3">Computer</option>
+                  <option value="4">Girls</option>
+                  <option value="5">Books</option>
+                  <option value="6">Tree</option>
+                </select>
+              </div>
+
+              <button class="button__upload">Upload</button>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+      <!-- End of Modal body -->
+    </div>
+
+  </div>
+
+  </div>
+
+  <footer>
+    <div class="footer__content">
+      <span>Stock Frame &copy; 2018</span>
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+  </footer>
+
+</body>
+<script src="../build/bundle.js"></script>
+
+</html>
