@@ -1,0 +1,14 @@
+@import url("../variables.css");
+footer {
+  background: var(--color__primary);
+  margin-top: 2rem;
+  color: var(--color__light);
+  padding: 1rem;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.footer__content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
